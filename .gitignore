@@ -1,0 +1,36 @@
+# created by virtualenv automatically
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# IDE 配置（PyCharm 的 .idea 文件夹保留，但忽略个人配置）
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/shelf
+
+# 环境变量文件（⚠️ 重要！绝对不要提交）
+.env
+
+# 构建输出
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# 测试和日志
+.pytest_cache/
+.coverage
+*.log
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
